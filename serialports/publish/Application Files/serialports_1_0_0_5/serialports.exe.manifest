@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="serialports.exe" version="1.0.0.5" publicKeyToken="68114c2595b47d7d" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="serialports" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="serialports.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="serialports.exe" size="42496">
+      <assemblyIdentity name="serialports" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>lvPYDh6DXCKFdtQ3+hjWeMhPm7fuhe7fdg45c8xl+AU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="serialports.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h0UeIdteCM29dGVw07LmHp593fPbh0IN11GyN3f2uRA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=systems-PC\Administrator" issuerKeyHash="3b54dcf814e0b63982286038a75adb0ce91937a2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>qoQi6rQCFgrUADBy3HZWzJ8Kimv9rz3GswzfjNNdBP0=</DigestValue></Reference></SignedInfo><SignatureValue>gQs7RWAkC7s8eodo2/R0+MAG4bS4LCdyXlb9SUsKbLMJa9os21s5QXPJSfkajw0udqfKrul0ZUI/x3y1bdGVGe8HzUyn9ueTz/vUoBrIU5AsLl3VfK2cp4pU70EJ6IggqarZrDtBIIDxkkoij68T769u3Z0ckWFXp/artiC8brY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>ztmCEucAQcF6608bVJZI64mZ5800LNo64uKuSg1AQQTScBSn2CyEEdyNSVolfWhtzytpI/VZmmiDXYfgnFeP6LLE0U7cTflCKolYOH90BWXYTlVoimqZSFh6V8fA1sdjUjHWFa1H2i72blO2FztsNiDsTX2IdIaHTF9II5FGc8s=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="fd045dd38cdf0cb3c63daffd6b8a0a9fcc5676dc723000d40a1602b4ea2284aa" Description="" Url=""><as:assemblyIdentity name="serialports.exe" version="1.0.0.5" publicKeyToken="68114c2595b47d7d" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=systems-PC\Administrator</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>0DFc9a6lggR6QHRT5nXQ3pgYXr25f8EgjxaJKxqYJPI=</DigestValue></Reference></SignedInfo><SignatureValue>LelAQlcfMI3TqHRGKJMo76pY/7OyOCAC9sqd+CMBF6B9ZNYPg+LFGwgJYMbmrGZ2axADU3DkJ8/7j19ijcOv59KqyYr450UDPh6Pw6S9nhD/kWI8hQvbj0K8kUy0tcrkrRpmzGdco0kke2riu1BzKpDon8nOLqXLvjqvBtbVBeI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>ztmCEucAQcF6608bVJZI64mZ5800LNo64uKuSg1AQQTScBSn2CyEEdyNSVolfWhtzytpI/VZmmiDXYfgnFeP6LLE0U7cTflCKolYOH90BWXYTlVoimqZSFh6V8fA1sdjUjHWFa1H2i72blO2FztsNiDsTX2IdIaHTF9II5FGc8s=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB+TCCAWKgAwIBAgIQXY0EBLYrJ5ROLa30dAIEzzANBgkqhkiG9w0BAQsFADA7MTkwNwYDVQQDHjAAcwB5AHMAdABlAG0AcwAtAFAAQwBcAEEAZABtAGkAbgBpAHMAdAByAGEAdABvAHIwHhcNMTQwNjE0MDAyMjI2WhcNMTUwNjE0MDYyMjI2WjA7MTkwNwYDVQQDHjAAcwB5AHMAdABlAG0AcwAtAFAAQwBcAEEAZABtAGkAbgBpAHMAdAByAGEAdABvAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAM7ZghLnAEHBeutPG1SWSOuJmefNNCzaOuLirkoNQEEE0nAUp9gshBHcjUlaJX1obc8raSP1WZpog12H4JxXj+iyxNFO3E35QiqJWDh/dAVl2E5VaIpqmUhYelfHwNbHY1Ix1hWtR9ou9m5Tthc7bDYg7E19iHSGh0xfSCORRnPLAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAbIGcvJz99vlvloEsyuIoTHijW7UQ+GwRsE2Bct6i1gigqn2KQ7VXBspNy5gNP6q2dPx0pdy079gWrJ1P5gzZnnS480VGineChuGo2w+82RvoLpDP+ZGh7wROfKJnz7cdWd2UtagngkOt/aybIhaX8XLimOUp5HPKmwaMTA1uxAg=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

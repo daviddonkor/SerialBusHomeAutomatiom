@@ -1,0 +1,14 @@
+c:\users\administrator\documents\visual studio 2012\Projects\serialports\serialports\bin\Debug\serialports.exe.config
+c:\users\administrator\documents\visual studio 2012\Projects\serialports\serialports\bin\Debug\serialports.exe
+c:\users\administrator\documents\visual studio 2012\Projects\serialports\serialports\bin\Debug\serialports.pdb
+c:\users\administrator\documents\visual studio 2012\Projects\serialports\serialports\bin\Debug\serialports.xml
+c:\users\administrator\documents\visual studio 2012\Projects\serialports\serialports\obj\Debug\serialports.Resources.resources
+c:\users\administrator\documents\visual studio 2012\Projects\serialports\serialports\obj\Debug\serialports.vbproj.GenerateResource.Cache
+c:\users\administrator\documents\visual studio 2012\Projects\serialports\serialports\obj\Debug\serialports.exe
+c:\users\administrator\documents\visual studio 2012\Projects\serialports\serialports\obj\Debug\serialports.xml
+c:\users\administrator\documents\visual studio 2012\Projects\serialports\serialports\obj\Debug\serialports.pdb
+C:\Users\Administrator\documents\visual studio 2012\Projects\serialports\serialports\bin\Debug\serialports.exe.manifest
+C:\Users\Administrator\documents\visual studio 2012\Projects\serialports\serialports\bin\Debug\serialports.application
+C:\Users\Administrator\documents\visual studio 2012\Projects\serialports\serialports\obj\Debug\serialports.exe.manifest
+C:\Users\Administrator\documents\visual studio 2012\Projects\serialports\serialports\obj\Debug\serialports.application
+C:\Users\Administrator\documents\visual studio 2012\Projects\serialports\serialports\obj\Debug\serialports.Form1.resources
